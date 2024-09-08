@@ -57,4 +57,8 @@ $('.post-slider2').slick({
     prevArrow:'<i class="fa-solid fa-arrow-left left_arrow">'
     });
 });
+
+// currentDate
+document.getElementById('currentDate').value = new Date().toISOString().substring(0, 10);
+document.getElementById('currentDate1').value = new Date().toISOString().substring(0, 10);
 });
